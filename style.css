@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  margin: auto;
+}
+
+.grid-container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.grid-square {
+  border: 1px solid rgb(153, 153, 153);
+  padding: 0px 1px 1px 0px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+}
+
+button {
+  width: 120px;
+}
